@@ -16,7 +16,6 @@ const initdb = async () =>
 // Export a function to POST to the database
 export const putDb = async (content) => {
   console.log("Post to the database");
-  console.log(jateDb);
 
   // Create a connection to the database and the version we want to use
   const jateDb = await openDB("jate", 1);
@@ -32,16 +31,18 @@ export const putDb = async (content) => {
 
   // Get confirmation of the request
   const result = await request;
-  console.log("data saved to the database", result);
 
-  // console.error("putDb not implemented");
+  if (result) {
+    console.log("result.value", result);
+  } else {
+    console.error("putDb not implemented");
+  }
 };
 
 // TODO: Add logic for a method that gets all the content from the database
 // Export a function to GET to the database
 export const getDb = async () => {
   console.log("GET from the database");
-  console.log(jateDb);
 
   // Create a connection to the database and version we want to use
   const jateDb = await openDB("jate", 1);
@@ -57,10 +58,12 @@ export const getDb = async () => {
 
   // Get confirmation of the request
   const result = await request;
-  console.log("result.value", result);
-  // return result;
 
-  // console.error("getDb not implemented");
+  if (result) {
+    console.log("result.value", result);
+  } else {
+    console.error("getDb not implemented");
+  }
 };
 
 initdb();

@@ -4,6 +4,7 @@ const { registerRoute } = require("workbox-routing");
 const { CacheableResponsePlugin } = require("workbox-cacheable-response");
 const { ExpirationPlugin } = require("workbox-expiration");
 const { precacheAndRoute } = require("workbox-precaching/precacheAndRoute");
+const { StaleWhileRevalidate } = require('workbox-strategies');
 
 precacheAndRoute(self.__WB_MANIFEST);
 
@@ -34,7 +35,7 @@ registerRoute(
   new StaleWhileRevalidate({
     // Name of the cache storage
     cacheName: "asset-cache",
-    
+
     plugins: [
       // This plugin will cache responses with these headers for up to 30 days
       new CacheableResponsePlugin({
