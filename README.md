@@ -1,8 +1,8 @@
-# Text-Editor
+# PWA - Text Editor
 
 ## Table of Contents
 
-- [Text-Editor](#text-editor)
+- [PWA - Text Editor](#pwa---text-editor)
   - [Table of Contents](#table-of-contents)
   - [Description](#description)
   - [GitHub Repository and Heroku Deployment](#github-repository-and-heroku-deployment)
@@ -18,7 +18,7 @@ The goal of this assignment is to build a text editor that runs in the browser. 
 
 ## GitHub Repository and Heroku Deployment
 
-- [GitHub Repository]()
+- [GitHub Repository](https://github.com/nayrsicnarf/Text-Editor.git)
 
 - [Heroku Deployment]()
 
@@ -32,7 +32,7 @@ The goal of this assignment is to build a text editor that runs in the browser. 
 
 ## Installation
 
-To view this webpage on a local machine, pull the code from [GitHub]() using Terminal (Mac) or Git (Windows) and use the following (or similar) programs:
+To view this webpage on a local machine, pull the code from [GitHub](https://github.com/nayrsicnarf/Text-Editor.git) using Terminal (Mac) or Git (Windows) and use the following (or similar) programs:
 
 - Operating System: macOS Monterey Version 12.4
 - Visual Studio Code: Version 1.68.1
@@ -41,14 +41,14 @@ To view this webpage on a local machine, pull the code from [GitHub]() using Ter
 
 ## Usage
 
-To view the completed project, visit my [GitHub]() or refer to the [Installation](#installation) section of this README.
+To view the completed project, visit my [GitHub](https://github.com/nayrsicnarf/Text-Editor.git) or refer to the [Installation](#installation) section of this README.
 
 ## Screenshot
 
-![Screenshot 1](/assets/.png)
-![Screenshot 2](/assets/.png)
-![Screenshot 3](/assets/.png)
-![Screenshot 4](/assets/.png)
+![Screenshot 1](/assets/te-demo.png)
+![Screenshot 2](/assets/te-manifest.png)
+![Screenshot 3](/assets/te-sw.png)
+![Screenshot 4](/assets/te-idb.png)
 
 ## Credits
 
