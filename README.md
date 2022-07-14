@@ -20,7 +20,7 @@ The goal of this assignment is to build a text editor that runs in the browser. 
 
 - [GitHub Repository](https://github.com/nayrsicnarf/Text-Editor.git)
 
-- [Heroku Deployment]()
+- [Heroku Deployment](https://radiant-everglades-48068.herokuapp.com/)
 
 ## Technologies
 
